@@ -19,7 +19,7 @@ const inputNumber = () => {
         // return 2 points If the userinput number and the random number are same
         resolve({
           points: 2,
-          randomNumber,
+          random,
         });
       } 
       else if ( userInput === random - 1 ||userInput === random + 1 ) { 
